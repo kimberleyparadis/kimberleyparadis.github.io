@@ -29,7 +29,7 @@ body {
     position: relative;
     top: 50%;  
     width: 24em;
-    margin: 0 auto;
+    margin: 50 px auto 0 auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75); /* White caret */
     font-family: 'Anonymous Pro', monospace; /* Monospace font for typewriter */
     font-size: 180%; /* Adjust to match your heading size */
