@@ -1,3 +1,6 @@
+/* Import the Ahsing font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ahsing&display=swap');
+
 /* General body styling */
 body {
     font-family: 'Arial', sans-serif;
@@ -11,27 +14,20 @@ body {
     justify-content: flex-start; /* Align items towards the top */
     align-items: center;
     height: 100vh;
-    padding-top: 20px; /* Adds some padding to push content from the very top */
+    padding-top: 100px; /* Increase padding to push content lower */
 }
-
 
 /* Styling for the main heading */
 h1 {
+    font-family: 'Ahsing', sans-serif; /* Use Ahsing font */
     font-size: 3em; /* Increase font size for better visibility */
-    margin-bottom: 20px; /* Adds more space between the title and the text below */
-    color: #551d1a; /* Deep burgundy */
-}
-
-/* Styling for the paragraphs */
-p {
-    font-size: 1.2em;
-    color: #875636; /* Muted brown for paragraph text */
-    margin: 10px 0;
+    margin-bottom: 40px; /* Increase space between title and video */
+    color: #ffffff; /* White title text */
 }
 
 /* Video container styling */
 .video-container {
-    margin-top: 20px;
+    margin-top: 40px; /* Increase margin to move the video lower */
     position: relative;
     width: 90%;  /* Increase video container width */
     height: 0;
