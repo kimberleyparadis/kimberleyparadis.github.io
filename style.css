@@ -61,7 +61,7 @@ body {
     margin-top: 100px; /* Increase margin to move the video lower */
     position: relative;
     width: 40%;  /* Increase video container width */
-    height: auto;
+    height: 0 auto;
     padding-bottom: 40%; /* Make the video container taller */
     margin: 0 auto;
 }
