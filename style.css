@@ -37,7 +37,7 @@ h1 {
 .video-container {
     margin-top: 60px; /* Increase margin to move the video lower */
     position: relative;
-    width: 190%;  /* Increase video container width */
+    width: 80%;  /* Increase video container width */
     height: 0;
     padding-bottom: 30%; /* Make the video container taller */
     margin: 0 auto;
