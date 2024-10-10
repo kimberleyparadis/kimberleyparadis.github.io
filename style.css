@@ -17,15 +17,6 @@ body {
     padding-top: 130px; /* Increase padding to push content lower */
 }
 
-/* Styling for the main heading */
-h1 {
-    font-family: 'Pixelify Sans', sans-serif; /* Use Pixelify Sans font */
-    font-size: 3em; /* Increase font size for better visibility */
-    margin-bottom: 40px; /* Increase space between title and video */
-    color: #ffffff; /* White title text */
-    font-weight: 700; /* Bold weight */
-}
-
 /* Google Fonts for typewriter animation */
 .vt323-regular {
     font-family: "VT323", monospace;
@@ -36,6 +27,7 @@ h1 {
 /* Typewriter effect */
 .line-1 {
     position: relative;
+    padding-bottom: 30px;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
