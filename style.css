@@ -14,11 +14,17 @@ body {
 
 /* Container for the text and video */
 .container {
-    max-width: 800px;
-    padding: 20px;
+    width: 80vw; /* 80% of the viewport width */
+    height: 80vh; /* 80% of the viewport height */
     background-color: #551d1a; /* Deep burgundy background for container */
-    border-radius: 15px;
+    color: #be1f25; /* Red for headings and text */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    /* Splotch shape with clip-path */
+    clip-path: polygon(50% 0%, 85% 10%, 100% 50%, 85% 90%, 50% 100%, 15% 90%, 0% 50%, 15% 10%);
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 /* Styling for the main heading */
@@ -39,7 +45,7 @@ p {
 .video-container {
     margin-top: 20px;
     position: relative;
-    width: 50%; /* 50% of the screen */
+    width: 60%; /* 50% of the screen */
     height: 0;
     padding-bottom: 28.125%; /* Ratio to make video responsive */
     margin: 0 auto; /* Centering the video */
