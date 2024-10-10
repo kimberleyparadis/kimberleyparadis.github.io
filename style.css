@@ -1,4 +1,5 @@
-
+/* Import Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* General body styling */
 body {
@@ -25,12 +26,44 @@ h1 {
     font-weight: 700; /* Bold weight */
 }
 
+/* Google Fonts for typewriter animation */
 .vt323-regular {
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* Typewriter effect */
+.line-1 {
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75); /* White caret */
+    font-family: 'Anonymous Pro', monospace; /* Monospace font for typewriter */
+    font-size: 180%; /* Adjust to match your heading size */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: #ffffff; /* Ensure the text is white like your other heading */
+}
+
+/* Typewriter animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, /* Controls speed and timing */
+               blinkTextCursor 500ms steps(44) infinite normal; /* Blinking caret effect */
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 24em; }
+}
+
+@keyframes blinkTextCursor {
+    from { border-right-color: rgba(255, 255, 255, 0.75); }
+    to { border-right-color: transparent; }
+}
 
 /* Video container styling */
 .video-container {
