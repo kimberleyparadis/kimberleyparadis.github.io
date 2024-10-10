@@ -27,7 +27,6 @@ body {
 /* Typewriter effect */
 .line-1 {
     position: relative;
-    padding-bottom: 30px;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
