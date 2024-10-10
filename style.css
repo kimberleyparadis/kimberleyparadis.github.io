@@ -1,11 +1,10 @@
-/* Import the Ahsing font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Ahsing&display=swap');
+
 
 /* General body styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #0e4f3f; /* Dark teal background */
-    color: #551d1a; /* Deep burgundy background for text */
+    color: #551d1a; /* Deep burgundy text */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -19,10 +18,19 @@ body {
 
 /* Styling for the main heading */
 h1 {
-    font-family: 'Ahsing', sans-serif; /* Use Ahsing font */
+    font-family: 'Pixelify Sans', sans-serif; /* Use Pixelify Sans font */
     font-size: 3em; /* Increase font size for better visibility */
     margin-bottom: 40px; /* Increase space between title and video */
     color: #ffffff; /* White title text */
+    font-weight: 700; /* Bold weight */
+}
+
+/* Optional: Specific Pixelify Sans class using the template */
+.pixelify-sans-header {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
 }
 
 /* Video container styling */
