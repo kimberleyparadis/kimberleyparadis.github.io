@@ -43,7 +43,7 @@ body {
 /* Typewriter animation */
 .anim-typewriter {
     animation: typewriter 4s steps(31) 1s 1 normal both, /* Controls speed and timing */
-               blinkTextCursor 500ms steps(44) infinite normal; /* Blinking caret effect */
+               blinkTextCursor 500ms steps(31) infinite normal; /* Blinking caret effect */
 }
 
 @keyframes typewriter {
