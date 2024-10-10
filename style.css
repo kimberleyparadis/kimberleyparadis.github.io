@@ -25,13 +25,12 @@ h1 {
     font-weight: 700; /* Bold weight */
 }
 
-/* Optional: Specific Pixelify Sans class using the template */
-.pixelify-sans-header {
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700; /* Bold weight */
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
   font-style: normal;
 }
+
 
 /* Video container styling */
 .video-container {
