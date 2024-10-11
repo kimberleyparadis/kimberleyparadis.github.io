@@ -43,7 +43,7 @@ body {
 /* Typewriter animation */
 .anim-typewriter {
     animation: typewriter 4s steps(31) 1s 1 normal both, /* Controls speed and timing */
-               blinkTextCursor 500ms steps(31) infinite normal; /* Blinking caret effect */
+               blinkTextCursor 300ms steps(31) infinite normal; /* Blinking caret effect */
 }
 
 @keyframes typewriter {
@@ -58,7 +58,7 @@ body {
 
 /* Video container styling */
 .video-container {
-    margin-top: 100px; /* Increase margin to move the video lower */
+    margin-top: 150px; /* Increase margin to move the video lower */
     position: relative;
     width: 50%;  /* Increase video container width */
     height: 0;
