@@ -23,14 +23,14 @@ body {
     top: 50%;  
     width: 24em;
     margin: 50 px auto 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75); /* White caret */
-    font-family: 'Anonymous Pro', monospace; /* Monospace font for typewriter */
-    font-size: 180%; /* Adjust to match your heading size */
+    font-family: 'Arial', sans-serif;
+    font-size: 180%; 
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
-    color: #ffffff; /* Ensure the text is white like your other heading */
+    color: #ffffff; 
+    Padding-bottom: 20px;
 }
 
 
