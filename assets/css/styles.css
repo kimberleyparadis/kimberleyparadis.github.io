@@ -95,6 +95,29 @@ margin: 0;
 }
 a, .slider {
 }
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.resource-list p {
+  margin: 0.2em 0;
+  max-width: 700px;
+  width: 100%;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  color: #666;
+}
+
 .btn:hover {
 box-shadow: 0.4rem 0.4rem 0rem black;
 /*transform: translate(-0.4rem, -0.4rem);*/
@@ -105,7 +128,7 @@ transform: translate(0, 0);
 }
 /* Hero section */
 .hero {
-min-height: 750px;
+min-height: 80vh;
 background: url("../../assets/img/hero-min.gif") center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -114,6 +137,8 @@ background-size: cover;
 position: relative;
 text-align: center;
 align-items: center;
+background-repeat: no-repeat;
+
 }
 .hero .down-arrow a{
 color: #fff;
